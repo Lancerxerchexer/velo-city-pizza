@@ -137,7 +137,7 @@ section{
 
 }
 
-/*------------STEPS------------*/
+/*------------DESCRIPTION------------*/
 
 #description{
   padding-top: 0;
@@ -148,8 +148,14 @@ section{
 
 #description .section-headline{
   color: white;
-  background-color: brown;
+  background-color: grey;
+  background: linear-gradient(#802b00, #ffdd99);
 
+}
+
+
+#description .line{
+  background-color: gray;
 
 }
 /*#description .background-texture {
@@ -165,7 +171,7 @@ section{
 }
 
 #description .circle{
-    border: 1px solid gray;
+    border: 1px solid brown;
     border-radius: 50%;
     width: 70px;
     height: 70px;
