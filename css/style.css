@@ -64,7 +64,7 @@ section{
 }
 
 #header h2 {
-    color: white;
+    color: lightgray;
     font-size: 30px;
     font-weight: 300;
 }
@@ -148,8 +148,7 @@ section{
 
 #description .section-headline{
   color: white;
-  background-color: grey;
-  background: linear-gradient(#802b00, #ffdd99);
+  background-color: rgba(0,0,0,0.4);
 
 }
 
@@ -171,7 +170,7 @@ section{
 }
 
 #description .circle{
-    border: 1px solid gray;
+    border: 2px solid white;
     border-radius: 50%;
     width: 70px;
     height: 70px;
@@ -184,16 +183,18 @@ section{
     position: absolute;
     top:50%;
     left: 50%;
-    color: gray;
+    color: white;
     transform: translate(-50%,-50%);
 }
 
 #description h4{
+  color: white;
     font-size: 25px;
 }
 
 #description p{
-    font-weight: 300;
+    color: white;
+    font-weight: 400;
 }
 
 
@@ -202,9 +203,9 @@ section{
     margin: 30px 0;
 }
 #description .background-texture{
-  background-image: url(../img/pattern-bg.png);
-  height: 100%;
-  background-repeat: repeat;
+  background-color:rgba(0,0,0,0.6);
+  padding-left: 1%;
+  padding-right: -1%;
 }
 
 /*-----------BENEFITS----------*/
