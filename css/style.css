@@ -39,6 +39,7 @@ section{
 
 .othernavbar{
     background-color: #292E37;
+    background-color: rgba(0,0,0,0.8);
 }
 
 #header {
@@ -64,7 +65,7 @@ section{
 }
 
 #header h2 {
-    color: lightgray;
+    color: darkgray;
     font-size: 30px;
     font-weight: 300;
 }
@@ -115,6 +116,7 @@ section{
     border: 1px solid white;
     padding: 5px 15px;
     font-size: 25px;
+    margin-right: 2px;
 }
 
 #header .headline-container a:hover, #header .headline-container a:active{
@@ -124,6 +126,10 @@ section{
 
 #header .headline-btn{
     margin-top: 40px;
+}
+
+#learnbutton a{
+  padding-left: 1%;
 }
 
 #header i{
@@ -148,7 +154,7 @@ section{
 
 #description .section-headline{
   color: white;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
 
 }
 
@@ -170,6 +176,7 @@ section{
 }
 
 #description .circle{
+  margin-bottom: 40px;
     border: 2px solid white;
     border-radius: 50%;
     width: 70px;
