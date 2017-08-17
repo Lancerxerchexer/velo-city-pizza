@@ -75,6 +75,15 @@ section{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+
+}
+
+#header .menu{
+  margin: 0 auto;
+  padding: 0;
+  width: 50vw;
+  height: 70vh;
+  transform: translate(50%, 30%);
 }
 
     nav ul{
@@ -110,6 +119,7 @@ section{
 #header a{
     text-decoration: none;
     color: white;
+
 }
 
 #header .headline-container a{
@@ -125,12 +135,10 @@ section{
 }
 
 #header .headline-btn{
-    margin-top: 40px;
+    margin-top: 8%;
+    position: relative;
 }
 
-#learnbutton a{
-  padding-left: 1%;
-}
 
 #header i{
     color: white;
@@ -141,6 +149,20 @@ section{
     left: 50%;
     transform: translate(-50%,0);
 
+}
+
+#header .orderbox{
+
+  height: 50vh;
+  width: 50vw;
+  border: 5px solid white;
+  position: relative;
+  text-align: center;
+  float:left;
+  padding: 5px 15px;
+  font-size: 25px;
+  margin-right: 2px;
+  position: relative;
 }
 
 /*------------DESCRIPTION------------*/
@@ -176,7 +198,7 @@ section{
 }
 
 #description .circle{
-  margin-bottom: 40px;
+  margin-bottom: 60px;
     border: 2px solid white;
     border-radius: 50%;
     width: 70px;
@@ -202,6 +224,7 @@ section{
 #description p{
     color: white;
     font-weight: 400;
+    margin-right: 15px;
 }
 
 
@@ -501,6 +524,9 @@ section{
      .show{
         max-height: 300px;
     }
+    #header h1{
+      font-size: 40px;
+    }
 }
 
 
@@ -511,17 +537,26 @@ section{
 
 
 
+@media only screen and (max-width: 790px){
+  #header .headline-container{
+    position:relative;
+    margin: 0 50px;
+  }
+}
+
 
 @media only screen and (max-width: 470px){
     #header h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     #header h2{
         font-size: 25px;
     }
     #header .headline-container a{
         font-size: 20px;
+
     }
+
 
 }
 /*----------------STEPS----------------*/
